@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awoso Photograpy</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <div class="site-title-a">
+                    <img src="img/logo.jpg" style="width: 200px; height: 70px "> 
+                </div>
+                <div class="site-title-b">
+                    <h1>Awoso's Photograpy</h1>
+                    <p class="subtitle">Saving your memories</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="more.html">More photo</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="current-page">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <h1>Contact Us</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <h4>We are located at</h4>
+                <p>Lagos Nigeria</p>
+                <h4>Phone</h4>
+                <p>+234 803 311 1469</p>
+                <h4>Email</h4>
+                <p>gaga.awoso@gmail.com </p>
+            </div>
+            <div class="flex-item-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="ee9f6f54-7db3-4c93-a140-82b89ef1a804">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="subject" placeholder="Email" required>
+                    <textarea name="message" id="textarea" cols="30" rows="10" placeholder="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#">  Book your work </a></h3>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
